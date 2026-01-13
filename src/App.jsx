@@ -9,10 +9,8 @@ export default function App() {
 
   return (
     <BrowserRouter>
-
-
-
       <Routes>
+        
         {/* Public routes */}
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<SignUp />} />
